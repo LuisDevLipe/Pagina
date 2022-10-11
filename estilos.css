@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.cabecalho{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:nowrap;
+    padding:5px 0px 5px 15px;
+    margin:10px;
+    background-color:grey;
+    border-radius:5px;
+    
+
+}
+.cabecalho-logo{
+    Font-size:2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:600;
+    color:yellow;
+}
+.cabecalho-menu{
+    display:flex;
+    position:absolute;
+    right:10px;
+    gap:40px;
+    padding:12px 50px;
+    background-color:yellow;
+    border-radius:0 5px 5px 0;
+
+}
+.cabecalho-menu-item{
+    font-size:1.2em;
+    font-family:arial;
+    font-weight:400;
+    
+}
